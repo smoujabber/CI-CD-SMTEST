@@ -47,5 +47,5 @@ app.post("/contact", (req, res) => {
   res.json(req.body);
 });
 
-app.listen(3000);
+
 console.log("Running on port 3000");
